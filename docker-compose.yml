@@ -1,0 +1,10 @@
+services:
+  ragbench:
+    build: .
+    ports:
+      - "127.0.0.1:8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./results:/opt/ragbench/results
+    restart: unless-stopped

@@ -1,0 +1,33 @@
+# Python environments and build artifacts
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+
+# Local credentials and provider configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private or generated datasets: only documented fixture is tracked
+data/*
+!data/README.md
+!data/smoke_fixture.jsonl
+
+# Runtime results and traces may contain source document text
+results/*
+!results/README.md
+
+# Editor/system files
+.DS_Store
+.idea/
+.vscode/

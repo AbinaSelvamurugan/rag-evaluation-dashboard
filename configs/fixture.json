@@ -1,0 +1,14 @@
+{
+  "name": "OFFLINE SOFTWARE FIXTURE ONLY",
+  "dataset_version": "REPLACE_WITH_IMPORTED_VERSION",
+  "adapter": "fixture",
+  "chunk_strategy": "fixed",
+  "chunk_unit": "characters",
+  "chunk_size": 128,
+  "chunk_overlap": 16,
+  "retriever": "keyword",
+  "top_k": 2,
+  "metrics": ["hit_rate", "precision_at_k", "recall_at_k", "mrr", "ndcg"],
+  "split": "development",
+  "max_questions": 3
+}

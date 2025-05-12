@@ -1,0 +1,18 @@
+{
+  "name": "Project 6 baseline — configure for actual corpus",
+  "dataset_version": "REPLACE_WITH_IMPORTED_VERSION",
+  "adapter": "project6_http",
+  "chunk_strategy": "recursive",
+  "chunk_unit": "characters",
+  "chunk_size": 512,
+  "chunk_overlap": 64,
+  "embedding_model": "project6-default",
+  "retriever": "dense",
+  "top_k": 5,
+  "generation_model": "project6-default",
+  "prompt_version": "project6-default",
+  "judge_model": "gpt-4o-mini",
+  "metrics": ["faithfulness", "answer_relevance", "context_precision", "context_recall", "hit_rate", "precision_at_k", "recall_at_k", "mrr", "ndcg"],
+  "max_questions": 25,
+  "split": "development"
+}
