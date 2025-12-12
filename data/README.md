@@ -1,0 +1,1 @@
+Only `smoke_fixture.jsonl` is bundled. It is a small example fixture for smoke-testing the pipeline, not a real evaluation corpus. Keep real evaluation datasets in a restricted private location and import them through the app, with annotations that match the Project 6 source documents. Do not commit sensitive documents or evaluation questions.

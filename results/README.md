@@ -1,0 +1,1 @@
+Results are written here on demand as `ragbench.sqlite3` (or at `RAGBENCH_HOME`). SQLite data persists after the application closes and may include sensitive context text, so back it up and purge it according to your retention policy.
